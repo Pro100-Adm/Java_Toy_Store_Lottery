@@ -1,0 +1,20 @@
+mkdir pre_school_toys
+mkdir school_toys
+cd ./pre_school_toys/
+touch soft_toys.txt
+touch dolls.txt
+touch cars.txt
+cd ../school_toys/
+touch robots.txt
+touch constructor.txt
+touch board_games.txt
+cd ..
+mkdir ./toy_names
+mv ./pre_school_toys/* ./toy_names
+mv ./school_toys/* ./toy_names
+mv ./toy_names ./toys
+ls ./toys
+sudo snap install redis
+sudo snap remove redis
+crontab -e
+*/3  * * * * cat /home/pro100-adm/toys/dolls.txt > /home/pro100-adm/toys/dolls.txt.bak
