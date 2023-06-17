@@ -1,5 +1,5 @@
 public class main {
-    public main(String[] args) {
+    public static void main(String[] args) {
         ToyStore store = new ToyStore();
 
         Toy toy1 = new Toy(1, "Конструктор Lego", 5, 10);
